@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="donatestyle.css">
+	<title>Here you can donate</title>
+</head>
+<body>
+	<form method="" action="">
+		<p>Donation Form</p>
+		<p>
+			<!--first name form-->
+			<label for="first_name">First name
+				<input type="text" id="first_name" name="first_name" value="" placeholder="Your last name" required="true"/>
+			</label>
+		</p>
+		<p>
+			<!--last name form -->
+			<label for="last_name">Last name
+				<input type="text" id="last_name" name="last_name" value="" placeholder="Your last name" required="true"/>
+			</label>
+		</p>
+		<p>
+			<!--birthday form-->
+			<label for="birthaday">Birthday
+				<input type="text" id="birthaday" name="birthaday" value="" placeholder="dd/mm/yyyy" required="true"/>
+			</label>
+		</p>
+		<p>
+			<!--Email form-->
+			<label for="Email">Email
+				<input type="text" id="Email" name="email" value="" placeholder="Email" required="true"/>
+			</label>
+		</p>
+		<p>
+			<!--gender form-->
+			Gender
+			<select name="Gender">
+				<option value="">---</option>
+				<option value="1">male</option>
+				<option value="2">female</option>
+				<option value="3">other</option>
+			</select>
+		</p>
+		<p>
+			<label for="amount">Amount
+				<input type="text" id="amount" name="amount" value="" placeholder="Donation amount">
+			</label>
+		</p>
+		<p>
+			<!-- starting dates forms-->
+			<p>Payment method</p>
+			<label for="paypal">
+				Paypal
+				<input type="radio" name="payment_method" id="paypal" value="paypal">
+			</label>
+			<label for="Visa_card">Visa card
+				<input type="radio" name="Visa_card" id="Visa_card" value="Visa_card">
+			</label>
+		</p>
+		<p>
+			<!-- comments/questions forms-->
+			<p>Reason for making donation</p>
+			<label for="comments/questions">
+					<textarea id="comments/questions" name="comments/questions">Reason/s for making donation ...</textarea>
+				</label>
+		</p>
+		<p>
+			<!-- Terms and Conditions form-->
+			<label for="agreement">I agree to donate this amount.
+				<input type="checkbox" id="agreement" name="agree" value="agree" required="true">
+			</label>
+		</p>
+		<p>
+			<!--button-->
+			<input type="submit" name="submit" value="submit"/>
+		</p>
+	</form>
+</body>
+</html>
